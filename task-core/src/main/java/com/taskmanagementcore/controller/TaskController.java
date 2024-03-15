@@ -14,6 +14,7 @@ import static com.taskmanagementcore.consonants.TaskConsonants.*;
 @RestController
 @RequestMapping(BASE_URL)
 @AllArgsConstructor
+@CrossOrigin("*")
 public class TaskController {
 
     private TaskService taskService;

@@ -29,6 +29,7 @@ public class TaskServiceImpl implements TaskService {
 //        task.setStatus(taskDto.getStatus());
         Task task = modelMapper.map(taskDto,Task.class);
 
+
         // save entity
         Task savedTask = taskRepository.save(task);
 
